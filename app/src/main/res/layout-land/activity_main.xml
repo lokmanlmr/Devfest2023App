@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/draw_layout"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contentLayout">
+
+        <!--Main content-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@id/tool"
+            android:background="@color/BgColor">
+
+
+            <!--Hna n7eto fragments-->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+       <include layout="@layout/toolbar"
+           android:id="@+id/tool"/>
+
+</RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="233dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginStart="0dp"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_menu"
+        app:itemTextAppearance="@style/Mystyle"
+        app:menu="@menu/menu">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
