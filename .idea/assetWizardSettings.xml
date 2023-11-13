@@ -81,7 +81,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="C:\Users\PAD\Desktop\My Stuff\DevFest2023\blueimg.svg" />
-                                                <entry key="scalingPercent" value="87" />
+                                                <entry key="scalingPercent" value="90" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -304,8 +304,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="tlathkhtot" />
-                            <entry key="sourceFile" value="C:\Users\PAD\Desktop\My Stuff\DevFest2023\Our Fileds\tlathkhtot.svg" />
+                            <entry key="outputName" value="gdgalgiers" />
+                            <entry key="sourceFile" value="C:\Users\PAD\Desktop\My Stuff\DevFest2023\Our Fileds\gdgalgiers.svg" />
                           </map>
                         </option>
                       </PersistentState>
