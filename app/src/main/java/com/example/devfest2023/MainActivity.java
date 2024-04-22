@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
         ImageButton imgbtn=findViewById(R.id.NavigationBtn);
+
+        //here we just added the functionality of the imgbtn
         imgbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
 
@@ -82,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     private boolean isInMainActivity() {
         // Check if the current activity is the MainActivity
         return getClass() == MainActivity.class;
